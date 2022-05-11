@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <style>
+            #imagenFondo{
+                background-image:url(./rick.jpg) ;
+                width: 50vw;
+                height: 50vh;
+                margin-left: 25%;
+                margin-right: 25%;
+                background-color: blueviolet;
+                background-origin: content-box;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                border-radius: 25%;
+            }
+
+            #imagenFondo:active{
+            width: 30vw;
+            margin-left: 30vw;
+            margin-right: 30vw;
+            }
+
+            #imagenFondo:hover{
+            background-origin: content-box;
+            background-size: 100% 100%;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            }
+
+
+            #texto{
+                background-color: aquamarine;
+                margin-left: 5%;
+                margin-right: 5%;
+                
+            }
+
+            #texto:hover{
+                margin-top: 15px;
+                margin-left: 5%;
+                margin-right: 5%;
+                column-count: 3;
+                height: 30vh;
+                
+            }
+
+            .pt:hover:first-letter{
+                font-size: 150%;
+                font-weight:bold;
+                font-style: italic;
+            }
+
+            div:active p:last-of-type{
+            color: crimson;
+            background-color: rgb(105, 29, 139);
+            }
+
+            body{
+                background-color:darkblue;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div id="imagenFondo"> </div>
+
+        <div id="texto">
+            <p class="pt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa molestias harum vero tempore maiores nostrum molestiae nam. Perferendis perspiciatis eos a nulla sed, et quo nemo? Obcaecati, accusamus culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa molestias harum vero tempore maiores nostrum molestiae nam. Perferendis perspiciatis eos a nulla sed, et quo nemo? Obcaecati, accusamus culpa.</p>
+            <p class="pt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores dignissimos, quo, mollitia quod voluptatem eius delectus itaque ab ad asperiores accusantium laboriosam, ipsum culpa iusto eveniet quibusdam dicta obcaecati. Aspernatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores dignissimos, quo, mollitia quod voluptatem eius delectus itaque ab ad asperiores accusantium laboriosam, ipsum culpa iusto eveniet quibusdam dicta obcaecati. Aspernatur.</p>
+            <p class="pt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, beatae quisquam. Omnis nisi autem natus sapiente quia veritatis. Et, id quos earum inventore magni obcaecati quo maiores dolores voluptas beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, beatae quisquam. Omnis nisi autem natus sapiente quia veritatis. Et, id quos earum inventore magni obcaecati quo maiores dolores voluptas beatae.</p>
+        </div>
+
+    </body>
+
+</html>
